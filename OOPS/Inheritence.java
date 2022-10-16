@@ -85,28 +85,28 @@ class Son2_Son3 extends Son2{
 }
 public class Inheritence {
     public static void main(String[] args) {
-        // Two t= new Two();          // This is single Inheritence
-        // t.show();                 //This is single Inheritence
-        // t.showagain();            //This is single Inheritence
+        Two t= new Two();          // This is single Inheritence
+        t.show();                 //This is single Inheritence
+        t.showagain();            //This is single Inheritence
 
         // -----------------------------------------------------
-        //Three t=new Three();          //This is multilevel Inheritence       
-        //t.show();                    //This is multilevel Inheritence 
-       // t.showagain();               //This is multilevel Inheritence 
-        //t.showThree();               //This is multilevel Inheritence 
+       Three t1 =new Three();          //This is multilevel Inheritence       
+       t1.show();                    //This is multilevel Inheritence 
+       t1.showagain();               //This is multilevel Inheritence 
+       t1.showThree();               //This is multilevel Inheritence 
         // ---------------------------------------------------------
-        //A a = new A();              // Hirarichal Inheritence
-        //a.showA();
-        //a.show();
+       A a = new A();              // Hirarichal Inheritence
+       a.showA();
+       a.show();
 
-        //B b= new B();               // Hirarichal Inheritence
-        //b.show();
-        //b.showB();
+       B b= new B();               // Hirarichal Inheritence
+       b.show();
+       b.showB();
 
-        //C c= new C();
-        //c.show();                   // Hirarichal Inheritence
-        //c.showC();
-        // ------------------------------------------------------------------
+       C c= new C();
+       c.show();                   // Hirarichal Inheritence
+       c.showC();
+           // ------------------------------------------------------------------
 
 // ---- ----------son1- children--------
         Son1_Son1 s1_s1= new Son1_Son1();             // Hybride inheritence
@@ -188,7 +188,7 @@ public class Inheritence {
 
 
 
-        
+
 
 
 

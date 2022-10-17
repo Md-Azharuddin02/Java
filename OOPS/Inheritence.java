@@ -239,12 +239,7 @@ package OOPS;
 //         TransactionDetails t= new TransactionDetails(145875457, 15000, "15/02/200", "ATM");
 
 //         Inheritence i= new Inheritence(h,a,t);
-//         i.show();
-        
-
-
-
-        
-    }
-}
+//         i.show();   
+//     }
+// }
 

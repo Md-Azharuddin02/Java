@@ -1,11 +1,11 @@
-package All_Pattern_Questions;
-import java.util.Scanner;
+// package All_Pattern_Questions;
+// import java.util.Scanner;
 
-public class All_Questions {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the numebers of rows you want to print : ");
-        int rows=sc.nextInt();
+// public class All_Questions {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.print("Enter the numebers of rows you want to print : ");
+//         int rows=sc.nextInt();
 
 // -----------------------------------1. Right Triangle Star Pattern--------------------------------
 //  *

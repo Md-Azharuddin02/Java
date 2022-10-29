@@ -76,3 +76,36 @@ package OOPS;
 //         I.display();
 //     }
 // }
+
+// -----------------------------------------------Java Local inner class----------------------------
+
+
+// class First {
+//     private int one=10;
+//     void first(){
+//         class Secound{
+//             final int a=20;
+//             void secound(){
+//                 class Third{
+//                     final int b=30;
+//                     void third(){
+//                         System.out.println("third class method "+one+" "+a+" "+b);
+//                     }
+//                 }
+//                 Third t= new Third();
+//                 t.third();
+//             }
+//         }
+//         Secound s = new Secound();
+//         s.secound();
+//     }
+// }
+// class InnerClass {
+//     public static void main(String[] args) {
+//         First f= new First();
+//         f.first();
+//     }
+// }
+
+// --------------------------------------Java static nested class---------------------
+

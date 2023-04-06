@@ -1,4 +1,4 @@
-package Collection.LIst;
+package Collection.LIst.Stack;
 import java.lang.reflect.Method;
 import java.util.Stack;
 

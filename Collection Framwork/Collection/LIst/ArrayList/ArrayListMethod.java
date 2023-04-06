@@ -219,6 +219,7 @@ public class ArrayListMethod {
        System.out.println("This is an array "+Arrays.toString(arr));
        ArrayList arr1= new ArrayList(Arrays.asList(arr));
        System.out.println("This is an arrayList"+arr1);
+
       
         
     }
